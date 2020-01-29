@@ -117,5 +117,5 @@ end
 
 def batch_badge_creator(name)
   newarray = [ ]
-  newarray.each do |name|
+  array.each do |name|
     
