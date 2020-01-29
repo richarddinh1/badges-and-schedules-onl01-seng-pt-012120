@@ -111,7 +111,7 @@ end
 
 people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_maker(name)
+def badge_maker(name)
   
   
 end
