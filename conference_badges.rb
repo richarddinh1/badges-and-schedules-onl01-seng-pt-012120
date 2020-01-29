@@ -22,12 +22,14 @@ def assign_rooms(array)
   return newarray
 end
 
-
-def printer(attendees)
-  batch_badge_creator(attendees).each do |badge|
-    puts badge
-end
-    assing_rooms(attendees).each do |attendee|
-      puts attendee
+def printer(array)
+  batch_badge_creator(array).each do |id|
+    puts id
+  end 
+  
+  assign_rooms(array).each do |id|
+    puts id 
   end
-end
+end 
+
+
